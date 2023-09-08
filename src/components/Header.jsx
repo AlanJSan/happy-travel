@@ -1,15 +1,20 @@
+import Logo from "./Logo";
+import Navbar from "./Navbar";
+import Socials from "./Socials";
+
 const Header = () => {
   return (
-    <header className=" bg-pink-300">
-      <div className="bg-orange-500 ">between</div>
-      <div className="bg-gray-400 text-center">
-        <h1 className="">titulo</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta porro
-          deleniti laboriosam aut quae praesentium expedita voluptate atque quia
-          corrupti in ipsa consequatur voluptates suscipit, quas nisi
-          exercitationem ipsam facilis.
-        </p>
+    <header className="">
+      <div className="bg-blue-950 px-[10%] flex justify-between items-center h-[60px]">
+        <div className="flex gap-3">
+            <p>Ejemplo</p>
+            <p>Ejemplo</p>
+        </div>
+        <Socials />
+      </div>
+      <div className="bg-slate-300 text-center flex justify-between px-[10%] pb-[1%] items-end">
+        <Logo />
+        <Navbar />
       </div>
     </header>
   );
