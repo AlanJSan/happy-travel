@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <section className="bg-desktop text-center py-[10%] bg-cover max-h-[500px]">
+    <>
       <div className="max-w-[350px] mx-auto flex flex-col items-center gap-3">
         <h1>Titulo 1</h1>
         <p>
@@ -10,12 +10,12 @@ const Banner = () => {
         </p>
         <button className="bg-emerald-500 rounded-full w-[150px] h-[40px]">Contáctanos</button>
       </div>
-      <div className="flex gap-5 justify-center relative top-[20vh]">
-        <div className="w-[100px] border-[1px] border-slate-900 bg-red-500">o</div>
-        <div className="w-[100px] border-[1px] border-slate-900 bg-red-500">o</div>
-        <div className="w-[100px] border-[1px] border-slate-900 bg-red-500">o</div>
+      <div className="flex gap-[7%] justify-center relative top-[13vh]">
+        <div className="w-[250px] aspect-video rounded-lg bg-blue-950">o</div>
+        <div className="w-[250px] aspect-video rounded-lg bg-blue-950">o</div>
+        <div className="w-[250px] aspect-video rounded-lg bg-blue-950">o</div>
       </div>
-    </section>
+    </>
   );
 };
 

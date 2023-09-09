@@ -5,7 +5,7 @@ const Layout = ( {children} ) => {
   return (
     <>
       <Header />
-      <main>
+      <main className="bg-slate-300">
         {children}
       </main>
       <Footer />
