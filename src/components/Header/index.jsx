@@ -1,6 +1,6 @@
-import Logo from "./Logo";
-import Navbar from "./Navbar";
-import Socials from "./Socials";
+import Logo from "../Logo";
+import Navbar from "../Navbar";
+import Socials from "../Socials";
 
 const Header = () => {
   return (
