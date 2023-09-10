@@ -2,7 +2,7 @@ import CardImg from "../../assets/card.png";
 
 const Card = () => {
   return (
-    <div className="focus:outline-none mx-2 w-72 xl:mb-8 mb-8">
+    <div className="focus:outline-none mx-2 w-72 xl:mb-8 mb-8 hover:scale-[1.05] hover:opacity-90 transition duration-200 ease-in-out">
       <div>
         <img
           alt="person capturing an image"

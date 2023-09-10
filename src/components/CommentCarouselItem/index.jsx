@@ -2,9 +2,9 @@ import Profile from "../../assets/profile1.jpg";
 
 const CommentCarouselItem = () => {
   return (
-    <div className="max-w-[320px]">
+    <div className="p-[3%] hover:scale-[1.05] hover:opacity-90 transition duration-200 ease-in-out">
       <div className="mb-4 text-center opacity-90">
-        <a href="#" className="relative block">
+        <a className="relative block">
           <img
             alt="profil"
             src={Profile}
