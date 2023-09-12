@@ -2,10 +2,10 @@ const Navbar = () => {
     return (
         <nav>
             <ul className="flex gap-3 text-emerald-600">
-                <li>ejemplos</li>
-                <li>ejemplos</li>
-                <li>ejemplos</li>
-                <li>ejemplos</li>
+                <li>Viajes</li>
+                <li>Hoteles</li>
+                <li>Paquetes</li>
+                <li>Promociones</li>
             </ul>
         </nav>
     );

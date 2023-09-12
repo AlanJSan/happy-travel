@@ -6,9 +6,8 @@ const Header = () => {
   return (
     <header className="">
       <div className="bg-blue-950 px-[10%] flex justify-between items-center h-[60px]">
-        <div className="flex gap-3">
-            <p>Ejemplo</p>
-            <p>Ejemplo</p>
+        <div className="flex gap-3 text-emerald-600">
+            <p>Iniciar Sesión</p>
         </div>
         <Socials />
       </div>
